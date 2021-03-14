@@ -251,9 +251,6 @@ function restartGame() {
     const boardGame = document.getElementById("board-game");
     boardGame.innerHTML = '';
 
-    // reset all cell
-    // document.querySelectorAll('.cell').forEach(cell => cell.innerHTML = "");
-
     drawGameArea(colSize);
     setGameState(colSize);
 
